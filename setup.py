@@ -1,10 +1,10 @@
 #!/usr/bin/env python
 
-from setuptools import find_packages, setup
-
 import os
 import subprocess
 import time
+
+from setuptools import find_packages, setup
 
 version_file = "basicsr/version.py"
 
@@ -159,7 +159,7 @@ if __name__ == "__main__":
 
     write_version_py()
     setup(
-        name="basicsr",
+        name="basicsr-volta",
         version=get_version(),
         description="Open Source Image and Video Super-Resolution Toolbox",
         long_description=readme(),
